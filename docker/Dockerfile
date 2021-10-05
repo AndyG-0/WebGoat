@@ -1,4 +1,5 @@
-FROM openjdk:15-slim
+#FROM openjdk:15-slim
+FROM adoptopenjdk:15.0.2_7-jdk-hotspot
 
 ARG webgoat_version=8.2.1-SNAPSHOT
 ENV webgoat_version_env=${webgoat_version}
